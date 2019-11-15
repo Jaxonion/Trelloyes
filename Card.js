@@ -15,7 +15,8 @@ function Card(props) {
                 </p>
             </div>
             <div>
-                <button>
+                <button
+                    onClick={() => props.deleteCard(props.id)}>
                     delete
                 </button>
             </div>
